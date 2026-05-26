@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import { properties } from '../../data/mockData';
 import ImageGallery from './components/ImageGallery';
 import PropertyInfo from './components/PropertyInfo';
@@ -10,11 +9,9 @@ import { ArrowLeft, Share2, Heart, MapPin } from 'lucide-react';
 
 const Details = () => {
   const { id } = useParams();
-  const [property, setProperty] = useState(null);
+  const property = properties.find(p => p.id === parseInt(id));
 
   useEffect(() => {
-    const found = properties.find(p => p.id === parseInt(id));
-    setProperty(found);
     window.scrollTo(0, 0);
   }, [id]);
 

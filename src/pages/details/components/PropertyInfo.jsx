@@ -1,4 +1,3 @@
-import React from 'react';
 import { Bed, Bath, Square, CheckCircle2, Waves, Wind, ShieldCheck, Car } from 'lucide-react';
 
 const PropertyInfo = ({ property }) => {

@@ -1,5 +1,4 @@
-import React from 'react';
-import { Phone, Mail, MessageSquare, Star } from 'lucide-react';
+import { Phone, Mail, Star } from 'lucide-react';
 
 const AgentContactCard = ({ agent }) => {
   return (

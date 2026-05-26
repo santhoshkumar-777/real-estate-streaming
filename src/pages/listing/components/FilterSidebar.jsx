@@ -1,5 +1,3 @@
-import React from 'react';
-import { Home, DollarSign, Building2, MapPin, SlidersHorizontal } from 'lucide-react';
 
 const FilterSidebar = () => {
   return (

@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { 
   LayoutDashboard, 
@@ -6,7 +5,6 @@ import {
   Heart, 
   MessageSquare, 
   User, 
-  Settings, 
   LogOut,
   Bell
 } from 'lucide-react';

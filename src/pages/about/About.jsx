@@ -1,6 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { ShieldCheck, Target, Users, Award, TrendingUp } from 'lucide-react';
+import { ShieldCheck, Target, TrendingUp } from 'lucide-react';
 import { agents } from '../../data/mockData';
 
 const About = () => {

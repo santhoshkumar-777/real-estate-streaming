@@ -1,7 +1,5 @@
-import React from 'react';
 import { properties } from '../../../data/mockData';
 import PropertyCard from '../../../components/common/PropertyCard';
-import { motion } from 'framer-motion';
 
 const PropertyGrid = ({ viewMode }) => {
   return (

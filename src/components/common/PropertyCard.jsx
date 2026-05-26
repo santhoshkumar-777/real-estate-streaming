@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Bed, Bath, Square, MapPin, Heart, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';

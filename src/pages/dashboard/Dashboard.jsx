@@ -1,11 +1,9 @@
-import React from 'react';
-import { Routes, Route, Link, useLocation } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Overview from './Overview';
 import MyProperties from './MyProperties';
 import SavedListings from './SavedListings';
 import Profile from './Profile';
-import { motion } from 'framer-motion';
 
 const Dashboard = () => {
   return (

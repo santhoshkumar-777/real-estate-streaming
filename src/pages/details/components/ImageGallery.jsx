@@ -1,4 +1,3 @@
-import React from 'react';
 
 const ImageGallery = ({ image }) => {
   // Mocking multiple images from one

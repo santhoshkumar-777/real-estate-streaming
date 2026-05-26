@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { TrendingUp, Eye, Heart, MessageSquare, PlusCircle } from 'lucide-react';
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Search, MapPin, Building, DollarSign } from 'lucide-react';
 
